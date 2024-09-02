@@ -2,7 +2,7 @@ version: '3'
 services:
 # Teedy Application
   teedy-server:
-    image: sismics/docs:v1.10
+    image: laithabbadi/teddy
     restart: unless-stopped
     ports:
       # Map internal port to host
