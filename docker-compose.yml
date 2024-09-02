@@ -2,7 +2,7 @@ version: '3'
 services:
 # Teedy Application
   teedy-server:
-    image: laithabbadi/teddy
+    image: Teddy/docs:v1.10
     restart: unless-stopped
     ports:
       # Map internal port to host
